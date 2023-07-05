@@ -47,3 +47,32 @@ main {
   margin-left: 16px;
   font-size: 18px;
 }
+
+/* top blogs style */
+
+.thumble img {
+  width: 117px;
+  height: 117px;
+}
+
+.blog {
+  display: flex;
+}
+
+.info {
+  margin-left: 16px;
+}
+
+.blog-title {
+  font-size: 20px;
+}
+
+.blog-author {
+  color: gray;
+  font-size: 16px;
+}
+.blog-author a {
+  text-decoration: none;
+  font-size: 16px;
+  color: blue;
+}
