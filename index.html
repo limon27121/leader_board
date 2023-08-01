@@ -3,19 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing_page</title>
+    <title>Leader Board</title>
     <!-- stylesheet add -->
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- font awesome set -->
+    <script src="https://kit.fontawesome.com/3817409b0e.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- header start -->
-    <header></header>
+    <header>
+      <div class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><img src="images/icons/profile.png" alt=""></li>
+        </ul>
+        
+      </div>
+    </header>
 
     <!-- header end -->
     <main>
+      <!-- top section -->
       <section class="container">
-        <div class="top-players"></div>
-        <h2 class="section-title">Top player</h2>
+        
+        <!-- players part start -->
+        <div class="top-players">
+        <h2 class="section-title">Top players</h2>
         <div class="players">
           <div class="player">
             <img src="images/players/player-1.png" alt="" />
@@ -42,10 +58,16 @@
             <h3 class="player_name">player name</h3>
           </div>
         </div>
+        </div>
+
         <hr />
+
+        <!-- blog part start -->
         <div class="top_blogs">
-          <h2 class="section-title">Top Blog</h2>
+          <h2 class="section-title">Top Blogs</h2>
+
           <div class="blogs">
+            <!-- individual blog part -->
             <article class="blog">
               <div class="thumble">
                 <img src="images/blogs/blog-1.png" alt="" />
@@ -55,9 +77,130 @@
                 <p class="blog-author">By <a href="#">Danny Sapio</a></p>
               </div>
             </article>
+            <article class="blog">
+              <div class="thumble">
+                <img src="images/blogs/blog-2.png" alt="" />
+              </div>
+              <div class="info">
+                <h3 class="blog-title">UI cheat sheet list vs grids</h3>
+                <p class="blog-author" style="padding-top: 25px;">By <a href="#">Wasif Hasan</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumble">
+                <img src="images/blogs/blog-3.png" alt="" />
+              </div>
+              <div class="info">
+                <h3 class="blog-title">The Art mystery</h3>
+                <p class="blog-author" style="padding-top: 25px;">By <a href="#">Parsa Mahmood</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumble">
+                <img src="images/blogs/blog-4.png" alt="" />
+              </div>
+              <div class="info">
+                <h3 class="blog-title">Your logo is copied</h3>
+                <p class="blog-author"style="padding-top: 25px;">By <a href="#">Mansur Rahman</a></p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
+
+      <!-- latest course section -->
+      <section class="container">
+        <div class="latest_courses">
+          <h2 class="section-title">Latest Courses</h2>
+        </div>
+        <div class="courses">
+          <div class="course">
+            <div class="img">
+              <img src="images/courses/course-1.png" alt="">
+            </div>
+            <div class="course-title">
+              <h2 class="heading">React-The Complete Guide 2023</h2>
+              <p class="course_author"> Debashish Kar Suvra</p>
+
+              <div class="course_info">
+                <div>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+             
+              <div class="course_duration">
+                <i class="fa-solid fa-clock"></i>
+                01:30hr
+              </div>
+              </div>
+              
+            </div>
+
+          </div>
+          <div class="course">
+            <div class="img">
+              <img src="images/courses/course-2.png" alt="">
+            </div>
+            <div class="course-title">
+              <h2 class="heading">Powerpoint 2023 Master in PowerPoint</h2>
+              <p class="course_author">Arifin Islam</p>
+
+              <div class="course_info">
+                <div>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star empty"></i>
+              
+              </div>
+              <div class="ratings">
+                <span>4.5</span>
+              </div>
+             
+              <div class="course_duration">
+                <i class="fa-solid fa-clock"></i>
+                01:30hr
+              </div>
+              </div>
+              
+            </div>
+           
+          </div>
+          <div class="course">
+            <div class="img">
+              <img src="images/courses/course-3.png" alt="">
+            </div>
+            <div class="course-title">
+              <h2 class="heading">The Complete JS Guide 2023</h2>
+              <p class="course_author">MD.Moontaser Alam</p>
+
+              <div class="course_info">
+                <div>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star empty"></i>
+                <span>4.5</span>
+              </div>
+             
+              <div class="course_duration">
+                <i class="fa-solid fa-clock"></i>
+                01:30hr
+              </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>
